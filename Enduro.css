@@ -1,0 +1,257 @@
+body {
+  font-family: arial;
+  background-image: url("../bilder/mountain-biking.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 30px;
+}
+
+html {
+   min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+
+.Navigation {
+  background: #eee;
+  text-align: center;
+}
+
+  li {
+    
+    flex-grow: 1;
+	
+    
+  }
+  
+  
+
+.ul1 {
+    display: flex;
+    flex-flow: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+#a2 {
+    background-color: #FF8000;
+    color: #222;
+    display: block;
+    padding: .5em 1em;
+    position: relative;
+    text-decoration: none;
+    font-size: 21px;
+    
+}
+nav #a2:hover,
+nav #a2:focus {
+  background-color: green;
+  color: currentColor;
+}
+
+nav #a2:hover::after ,
+nav #a2:focus::after{
+  color: transparent;
+}
+
+.eins {
+  margin: 16px;
+  width: 600px;
+  height: 600px;
+  background-color: #eee;
+  text-align: center;
+  border-style: outset;
+  border-width: 5px;
+  border-color: black;
+}
+
+
+.kastenX2 {
+  flex-wrap: nowrap;
+  display: flex;
+  margin-top: 50px;
+}
+
+.zwei {
+ margin: 16px;
+ font-size: 20px;
+ float: right;
+ border-style: outset;
+  border-width: 5px;
+  border-color: black;
+}
+
+#kasten2 {
+	display: flex;
+	width: 1500px;
+	height: 700px;
+	margin: 30px;
+}
+
+#links {
+	background-color: #eee;
+	width: 250px;
+	height: 545px;
+}
+
+#rechts {
+	flex-wrap: wrap;
+}
+
+#roben {
+	background-color: #FF8000;
+	text-align: center;
+	width: 1164px;
+	height: 45px;
+	margin-right: 30px;
+}
+
+
+
+#runten {
+	width: 1000px;
+	height: 500px;
+}
+
+#videotext {
+	font-size: 20pt;
+}
+
+.Bild1 {
+  width: 900px;
+  height: 600px;
+  
+} 
+
+
+
+button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  
+  }
+
+button:hover {
+  background-color: green;
+}
+
+
+.gkasten {
+	margin: 30px;
+}
+
+#kkasten {
+	display: flex;
+	margin-top: 10px;
+}
+
+#kkasten2 {
+  width: 900px;
+  height: 470px;
+  
+}
+
+#mkasten {
+	flex-wrap: wrap-reverse;
+  margin-top: -20px;
+}
+
+#profiname {
+	background-color: #FF8000;
+	font-size: 30pt;
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+.profisuberschrift {
+  margin-top: 150px;
+  font-size: 20pt;
+  background-color: #eee;
+  margin-left: 640px;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 4px;
+}
+
+#Profibilder {
+  width: 500px;
+  height: 470px;
+}
+
+#infobox2 {
+	font-size: 11pt;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+#mk1kasten {
+	width: 930px;
+	height: 235px;
+	background-color: #eee;
+	margin-left: -400px;
+}
+
+#mk2kasten {
+	width: 930px;
+	height: 235px;
+	background-color: #fff;
+	margin-left: -400px;
+	margin-top: -20px;
+}
+
+h2 {
+text-align: center;	
+}
+
+span {
+	color: green;
+}
+
+
+
+
+.footer {
+  background-color: green;
+}
+
+.footer .li1 {
+  display: inline;
+  padding: 0 10px;
+  margin: 0;
+  font-size: 20pt;
+}
+
+.footer .ul2 {
+  display: inline;
+  margin: 600px;
+}
+
+
+
+.footer .a1:hover {
+  color: red;
+}
+
+.footer .a1 {
+  height: 60px;
+  line-height: 60px;
+  color: black;
+  text-decoration: none;
+}
